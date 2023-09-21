@@ -29,11 +29,22 @@ To learn about the technology behind this demo, visit the [Mattermost OpenOps re
 
 ## Install
 
-*Coming soon...* 🎣
+***Rather watch a video?** 📽️ Check out our YouTube tutorial video for getting started with OpenOps: https://www.youtube.com/watch?v=20KSKBzZmik*
+
+***Rather read a blog post?** 📝 Check out our Mattermost blog post for getting started with OpenOps: https://mattermost.com/blog/open-source-ai-framework/*
+
+1. Clone the OpenOps repository (**not this project**): `git clone https://github.com/mattermost/openops && cd openops`
+2. Start docker services and configure plugin
+    - **If using OpenAI:**
+      - Run `env backend=openai ./init.sh`
+      - Run `./configure_openai.sh sk-<your openai key>` to add your API credentials *or* use the Mattermost system console to configure the plugin
+3. Access Mattermost and log in with the credentials provided in the terminal.
+
+When you log in, you will start out in a direct message with your AI Assistant bot.
 
 ## Usage
 
-*Coming soon...* 🎣
+To learn more about this project, you can view the [accompanying slides](https://docs.google.com/presentation/d/171BlzkccVSvXcxHG_NwvdYtPUB0YOQwleFJj2lySFu0/edit?usp=sharing) on Google Slides. There are AI use cases with screenshots and example, and the The "Proof of concept: OpenOps" section has screenshots of setting up the OpenOps environment, step by step.
 
 ## Related Efforts
 
